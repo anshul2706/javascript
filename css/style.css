@@ -1,0 +1,98 @@
+* {box-sizing:border-box}
+
+/* Input Container*/
+
+.jumbotron{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.jumbotron .btn{
+
+    margin-top: 20px;
+    padding: 8px;
+    background: rgba(26, 25, 25, 0.137);
+    border-radius: 7px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+
+  position: static;
+  margin: auto;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+    /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  
+  
+  @-webkit-keyframes fade
+  {
+    from {opacity: .4}
+    to {opacity: 1}
+
+    @keyframes fade 
+    {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+  }
+
+
+/* Container 3*/
+
+#email{
+
+    padding:10px 70px;
+    margin-top: 50px;
+}
+
+.my-bg{
+
+    background-color: rgb(8, 8, 8);
+    margin: 100px 100px;
+
+}
+
+.my-bg ul{
+    text-decoration: none;
+    list-style: none;
+    position: static;
+}
+
+.mail{
+  color: aquamarine;
+  font-size: 17px;
+}
+  
